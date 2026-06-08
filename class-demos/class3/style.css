@@ -1,0 +1,48 @@
+/* The followed format
+selector (like p, body, headings, etc) {
+	property: value
+	second-property: value
+	third property: value
+	properties like color, background color, font-size, border (#px-border type-bordercolor), width (####px/##%), height(####px/##%)
+	etc..
+}
+*/
+
+body{
+	background-image: url("background.png");
+	/* uses a local image as a background  */
+}
+h1{
+	color: floralwhite;
+	font-size: 36pt;
+	/* sets the color of the heading */
+}
+
+p {
+	color: white;
+	font-family: VCR OSD Mono;
+	font-size: 24pt;
+	/* sets the color and font style for every <p> element on the page */
+}
+
+li{
+	color: white;
+	font-family: VCR OSD Mono;
+	font-size: 16pt;
+
+}
+
+.notification{
+	color: mediumvioletred;
+	font-family: Impact;
+	font-size: 24pt;
+	border: 6px dashed darkcyan;
+
+}
+
+#aqua{
+
+	color: black;
+	background-color: aqua;
+	border: 6px dashed darkcyan;
+}
