@@ -3,7 +3,7 @@ selector (like p, body, headings, etc) {
 	property: value
 	second-property: value
 	third property: value
-	properties like color, background color, font-size, border (#px-border type-bordercolor), width (####px/##%), height(####px/##%)
+	properties like color, background-color, background-image (url("imagename.imagetype")), font-size, border (#px-border type-bordercolor), margin-bottom, width (####px/##%), height(####px/##%)
 	etc..
 }
 */
