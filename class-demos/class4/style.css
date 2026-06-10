@@ -1,0 +1,29 @@
+body{
+	background-color: midnightblue;
+
+}
+
+.yell{
+	color: white;
+	background-color: red;
+	font-family: Impact;
+	font-size:4em;
+	width: 100px;
+	height: 100px;
+	/* incline truncates the content; this means that width/height properties are nullified */ 
+	display: inline-block;
+	/* text align works better for centering difference sized words */
+	text-align: center;
+	padding: 100px;
+}
+
+.yell-container{
+	text-algin: center;
+	float: auto;
+
+}
+
+img.logo{
+
+
+}
