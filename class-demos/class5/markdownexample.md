@@ -40,4 +40,4 @@ We wrap the block in triple `
 Link syntax:
 `[Text to be linked](https://url.com)`
 
--[This is actually a link]
+-[This is actually a link]https://www.twitch.tv/
