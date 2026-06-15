@@ -41,3 +41,8 @@ Link syntax:
 `[Text to be linked](https://url.com)`
 
 -[This is actually a link]https://www.twitch.tv/
+
+Image syntax:
+`![Image alt text](img.png)`
+
+-[Excuse me sir](original-emoji-2.png)

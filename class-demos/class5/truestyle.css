@@ -1,0 +1,58 @@
+/*
+	2660A4
+	EDF7F6
+	F19953
+	C47335
+	56351E
+*/
+
+
+.container{
+	width: 200px;
+	height:200px;
+	background-color:#2660A4;
+	margin: 20px;
+	display: inline-block;
+}
+
+body{
+
+	overflow-y: hidden;
+	/* removes scroll on entire webpage*/
+}
+/* syntax to grab all the divs that are children of .container class on div */
+div.container > div{
+	width: 75px;
+	height: 75px;
+	background-color: #EDF7F6;
+	position: static;
+
+}
+
+.static-child{
+	/* this don' do anything its the default */
+	position: static;
+}
+.relative-child{
+	position: relative;
+}
+.absolute-child{
+	position: absolute;
+	top: 100px;
+	left: 0px;
+}
+.down-under{
+	position: absolute;
+	top: 2000px;
+}
+.sticky-child{
+	position: sticky;
+	top: 500px;
+}
+.fixed-child{
+	position: fixed;
+}
+
+.big-container > img{
+	z-index: 999;
+}
