@@ -1,0 +1,66 @@
+/* Colors
+Shadow Grey #D8D8F6
+Charcoal #494850
+Lilac Ash #978897
+Amethyst Smoke #B18FCF
+Lavender #D8D8F6
+*/
+body{
+	background-image: url(background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	text-align: center;
+	font-family: "Times-New-Roman";
+	font-size: 56px;
+	color: #D8D8F6;
+	margin: 10px;
+}
+
+h2{
+	text-align: center;
+	font-family: "Times-New-Roman";
+	font-size: 30px;
+	color: #B18FCF;
+	margin: 20px;
+}
+
+p{
+	text-align: center;
+	font-family: "Times-New-Roman";
+	font-size: 30px;
+	color: snow;
+	margin: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+a{
+	font-size: 80px;
+	color: #B18FCF;
+	font-family: Impact;
+
+}
+
+footer{
+	background-color: #494850;
+	overflow: auto;
+}
+
+.leftAlignedContainer{
+	float: left;
+	display: inline-block;
+}
+
+.rightAlignedContainer{
+	float: right;
+	display: inline-block;
+}
+.centerImg{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+}
+
