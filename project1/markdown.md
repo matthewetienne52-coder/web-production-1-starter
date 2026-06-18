@@ -39,3 +39,11 @@ Float seems to be working differently between the left and right values. Joy.
 Wanted to color the footer, so I took from ANOTHER Stack Overflow [thread](https://stackoverflow.com/questions/30302335/why-my-footer-background-color-doesnt-work). Loving that site.
 
 Learned how to center images from [w3schools](https://www.w3schools.com/howto/howto_css_image_center.asp). Should be the only elements missing at this point.
+
+Tried following advice to put the position property with the "fixed" value, but it makes the footer disappear?
+
+Fixed it using this [StackOverflow thread](https://stackoverflow.com/questions/70553619/why-does-this-footer-element-just-disappear-when-it-has-fixed-positioning)
+
+Added margin bottom to footer and made it so it reaches both sides of the screen by setting padding and margins on html tag to [0](https://stackoverflow.com/questions/70553619/why-does-this-footer-element-just-disappear-when-it-has-fixed-positioning)
+
+In my notes it says to "Add padding to the intros" But I forgot what this means or what it was referring to. Oops.
