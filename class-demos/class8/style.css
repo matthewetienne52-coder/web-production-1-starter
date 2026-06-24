@@ -1,0 +1,50 @@
+body {
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	/* rem is a unit that is based off user prefs, applies to zoom */
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+/* we can only use and test by adding viewport in html meta */
+
+@media screen and (width < 600px){
+	body{
+		font-size: 1.5rem;
+		/* when making responsive text, you want to use rem for your units */
+	}
+}
+/* display: flex only goes on parent container */
+.parent-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	gap: 30px;
+
+}
+
+/* colors
+210203 Coffee Bean
+C17767 Dusty Rose
+D3B99F Tan
+6D98BA Steel Blue
+9AADBF Cool Steel
+*/
+
+span{
+	background-color:#210203;
+	color: #D3B99F;
+}
+
+.smaller{
+	flex-grow: 1;
+}
+
+.bigger{
+	/* the flex grow on the bigger element will the whatever size x number you applied (it is a ratio) */
+		/*  EX: 2 will mean the bigger wwill be 2x the normal size */
+	flex-grow: 4;
+}

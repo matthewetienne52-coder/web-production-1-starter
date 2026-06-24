@@ -1,0 +1,36 @@
+body{
+	width: 100%;
+	height:100%;
+
+
+	background:#9AADBF;
+	margin:0;
+	display: flex; /* You can do */
+	flex-direction: column; /* these */
+}
+
+nav{
+	background:;
+	width:100%;
+	display:inline-flex;
+	justify-content: space-around ;
+	/* there's also space-between and space-evenly, text things out */
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.content{
+	display:flex;
+	flex-direction:row;
+	/* height:100%; there's something you can do instead ^ */
+	flex-grow: 4;
+}
+
+aside{
+	flew-grow:1;
+	background:#6D98BA;
+}
+
+footer{
+	background: #C17767;
+}
