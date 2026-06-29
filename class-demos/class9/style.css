@@ -1,0 +1,47 @@
+/* Colors
+Prussian Blue #001B2E
+Charcoal Blue #294C60
+Pale Slate #ADB6C4
+Papaya Whip #FFEFD3
+Peach Glow #FFC49B
+
+*/
+
+body{
+	background: #001B2E;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.container{
+	background: #294C60;
+	height: 100%;
+
+	display: grid;
+	gap: 20px;
+	padding:10px;
+	/*
+	grid-template-columns: 300px;
+	grid-template-rows: 200px;
+	only applies to first item
+	*/
+	/* If you wanna do it for multiple.. */
+	grid-template-columns: 200px 200px 100px 50px;
+	/* grid-template-rows: 200px 100px 100px 100px; */
+	/* You could also use repeat() for a large number of them */
+	grid-template-rows: repeat(3, 50px);
+
+}
+
+.hidden{
+	background: none;
+}
+
+/*grab all of the child elements of the .hidden */ 
+/* child of hidden is just the text */
+.hidden > * {
+	display: none;
+}

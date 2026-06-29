@@ -29,6 +29,7 @@ nav{
 aside{
 	flew-grow:1;
 	background:#6D98BA;
+	min-width: 200px;
 }
 
 footer{
