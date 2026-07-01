@@ -1,5 +1,7 @@
 Prior to working on the coding of my project, I made sure to properly create a layout and assets to make the poster in photoshop, and the mockup can be found
 
+I used [FlexboxFroggy](https://flexboxfroggy.com/) ro better understand how flexbox alignments work
+
 [here](Photoshop_v8FLtt3vzv.png)
 
 Put the three images together in a parent but they're not aligned to the bottom of the page
