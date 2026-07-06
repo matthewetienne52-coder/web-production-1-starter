@@ -1,0 +1,1 @@
+all notes went in main.js pretty much

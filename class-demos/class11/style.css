@@ -1,0 +1,11 @@
+p{
+	font-family: 'VCR OSD Mono';
+}
+
+.redParagraph{
+	background: red;
+}
+
+#bigParagraph{
+	font-size: 40px;
+}
