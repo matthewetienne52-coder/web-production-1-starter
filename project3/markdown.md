@@ -27,4 +27,36 @@ Back to the background, still having issues, trying several fixes from the inter
          - aaaand it became an unexpected identifier bro im crine
     - Enclosing the entire thing in '' seems to have worked. Thread wasn't completely useless, but god what a headache.
 
-   
+
+  Text won't go to the middle, it's imperative that it does because another asset needs to go there as well.
+
+  Ok so funny lil thing I did. When I commented to pivot back to percentages I took the semicolon with me. I was confused when the heigh and margin properties were colored. Haha. Hahahahahaha. HAHAHAHAA
+
+  I am very sleep deprived.
+
+  On the topic of the middle elements, I had struggled to put the sun image in as it caused the background to disappear..but it was a syntax error. I didn't put quotes around the "sunAndMoon" id.
+
+  I managed to stack the images within the divs on top of each other using absolute positioning as instructed by [This StackOverflow Thread](https://stackoverflow.com/questions/1909648/stacking-divs-on-top-of-each-other)
+
+  With this, there is a functional version of the website. However, there is now two elements that I'm only SLIGHTLY concerned about, mostly because of the time I have left to replicate the mockup. it is what it is though. 
+
+  [Flexbox Froggy](https://flexboxfroggy.com/) always comes in clutch with learning to align things
+
+  Yeah had trouble as expected. The progress bar wasn't aligned to the bottom, but instead to the middle until i broke body and html apart in CSS and applied display: flex to every div
+
+  hopefully the stuff in [this thread](https://stackoverflow.com/questions/59316816/how-to-force-a-div-to-expand-or-resize-only-in-one-direction-in-css-jquery) will let me  expand the progress bar from the left only
+
+  It did nooooott!
+
+  FINALLY SOME PROGRESS HOLY #### this [reddit thread](https://www.reddit.com/r/webdev/comments/wng6zr/changing_the_width_of_an_image_changes_the_height/) showed me why my width was changing the heigh of the progress bar, how to figure out how to left align it..
+
+  Adding the left property again did not work.
+
+  Screw making this progress bar expand from the left, from the center it goes..
+
+  [This](https://stackoverflow.com/questions/10118172/setting-div-width-and-height-in-javascript) showed me how to do css math for width in javascript
+
+  After fixing some issues I FINALLY got a working progress bar. hooly HELL. In the Javascript/CSS equation I used I was referencing an ID i changed everywhere except for the actual html. Had to fix the order of parenthesis and reference [this thread](https://stackoverflow.com/questions/45084227/using-css-calc-in-javascript-with-a-variable) to figure out how to format the quotes.
+
+  I'll put the different forms of escanor somewhere when i have time.
+      - Also got a recording of the program working successfully

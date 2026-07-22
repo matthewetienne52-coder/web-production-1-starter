@@ -4,7 +4,6 @@ window.onload = ( ) => {
 		let hours = time.getHours()
 		let min = time.getMinutes()
 		let sec = time.getSeconds()
-
 		if (hours  >= 5 && hours < 12){
 			document.getElementById("timeOfDay").innerHTML = "Sunrise"
 			document.getElementById("sunOrMoon").innerHTML = "<img src='sun.png'>"
@@ -33,6 +32,7 @@ window.onload = ( ) => {
 			document.getElementById("sunOrMoon").innerHTML = "<img src='moon.png'>"
 			document.body.style.backgroundImage = 'url("night_bg.png")'
 		}
+		document.getElementById("midAligned").style.width = 'calc(0% + ' + ((1 + hours) * 4.167) + '%)'
 	}, 1000)
 
 }
