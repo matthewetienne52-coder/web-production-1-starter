@@ -1,0 +1,6 @@
+clock can be as abstract as i want (especially if they have a relation to time)
+
+clock doesn't NEED to be on screen, removing it could remove clutter
+
+you move something by modifying the css through pixels orrrr
+	PERCENTAGESSS

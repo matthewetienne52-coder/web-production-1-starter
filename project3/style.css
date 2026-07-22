@@ -1,0 +1,28 @@
+html, body{
+	width: 100%; /* 1920px; */
+	height: 100%; /* 1080px; */
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@font-face{
+	font-family: Deutsch;
+	src: url(Deutsch.ttf);
+}
+
+#timeOfDay{
+	font-family: Deutsch;
+	font-size: 230pt;
+	text-align: center;
+	position: absolute;
+	color: #dfad00;
+	paint-order: stroke fill;
+   -webkit-text-stroke-width: 10px;
+   -webkit-text-stroke-color: #594b0a;
+}
+#sunOrMoon{
+	position: absolute;
+}
