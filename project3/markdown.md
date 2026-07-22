@@ -59,4 +59,8 @@ Back to the background, still having issues, trying several fixes from the inter
   After fixing some issues I FINALLY got a working progress bar. hooly HELL. In the Javascript/CSS equation I used I was referencing an ID i changed everywhere except for the actual html. Had to fix the order of parenthesis and reference [this thread](https://stackoverflow.com/questions/45084227/using-css-calc-in-javascript-with-a-variable) to figure out how to format the quotes.
 
   I'll put the different forms of escanor somewhere when i have time.
-      - Also got a recording of the program working successfully
+      - Also got a recording of the program working successfully. Check it:
+
+  ![Here](chrome_xnqzXgSevM.mp4)
+
+ ## If that didn't work the file's somewhere in here, tell presenting Matthew to look for it.
