@@ -23,7 +23,7 @@ Tried adding a background within the smae iff statements that worked and uhhhhh 
 	- I cross referenced notes and examples from class and I had indents and brackets done incorrectly. Oops.
 
 Back to the background, still having issues, trying several fixes from the internet and it still refuses to work.
-    - According to [this thread](https://stackoverflow.com/questions/57112739/uncaught-referenceerror-url-is-not-defined-javascript-error, I have to remove the quotes from the file name
+    - According to [this thread](https://stackoverflow.com/questions/57112739/uncaught-referenceerror-url-is-not-defined-javascript-error) I have to remove the quotes from the file name
          - aaaand it became an unexpected identifier bro im crine
     - Enclosing the entire thing in '' seems to have worked. Thread wasn't completely useless, but god what a headache.
 
@@ -61,6 +61,13 @@ Back to the background, still having issues, trying several fixes from the inter
   I'll put the different forms of escanor somewhere when i have time.
       - Also got a recording of the program working successfully. Check it:
 
-  ![Here](chrome_xnqzXgSevM.mp4)
+  ![Here](chrome_xnqzXgSevM-ezgif.com-video-to-gif-converter.gif)
 
  ## If that didn't work the file's somewhere in here, tell presenting Matthew to look for it.
+
+ Time transitions occur at:
+  - 5 hours: Night Time to Sunrise
+  - 12 hours: Sunrise to Daytime
+  - 12 hours and 50 minutes: High Noon
+  - 19 hours: Daytime To Sunset
+  - 21 hours: Sunset to Night Time 

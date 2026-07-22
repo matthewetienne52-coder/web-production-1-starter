@@ -13,6 +13,7 @@ body{
 	flex-direction: column;
     align-items: center;
     justify-content: center; 
+    overflow: clip;
 }
 
 @font-face{
@@ -41,7 +42,7 @@ body{
 	position: absolute;
 	display: flex;
 	align-items: flex-end; 
-	flex-direction: column;
+	flex-direction: column; /* should probably be deleted */
 	justify-content: flex-end;
 	padding-bottom: 10px;
 }
